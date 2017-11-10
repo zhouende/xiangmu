@@ -1,0 +1,1 @@
+$(function(){var l=!0;$("#imgRight").on("click",function(){l?$("#lastUl").slideDown():$("#lastUl").slideUp(),l=!l;var n=setInterval(function(){$(window).width()>=830&&($("#lastUl").hide(),clearInterval(n))},10);console.log(l)})});

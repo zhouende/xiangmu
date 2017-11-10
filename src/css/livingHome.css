@@ -1,0 +1,266 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	overflow: hidden;
+	height: 100%;
+}
+.clearFix::after{
+  content: '';
+  display: block;
+  clear:both;
+}
+.one{
+	width: 100%;
+	height: 707px;
+	    background-image: url(https://b-ssl.duitang.com/uploads/people/201608/18/20160818104645_f5QSv.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.dt-header{
+	width: 100%;
+	height: 64px;
+	background-color: #fff;
+	opacity: 0.8;
+}
+.dt-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.dt-logo{
+	    float: left;
+    width: 80px;
+    height: 64px;
+    background: url(https://b-ssl.duitang.com/uploads/files/201312/24/20131224171644_TXGCC.png) 0 12px no-repeat;
+    text-indent: -9999px;
+    margin-left: 45px;
+        font-size: 14px;
+}
+.dt-btn{
+	    color: #fff;
+    width: 52px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #f46;
+    border-radius: 3px;
+    float: right;
+	text-align: center;
+    margin-right: 145px;
+    margin-top: 20px;
+    font-size: 13px;
+        text-decoration: none;
+}
+.dt-head-cat{
+	      float: right;
+    margin-right: -115px;
+    font-size: 13px;
+    line-height: 64px;
+    text-align: center;
+    color: #444;
+    text-decoration: none;
+}
+.dt-center{
+    text-align: center;
+    margin-top: -100px;
+   		height: 420px;
+   		position: relative;
+}
+.pg-logo{
+	height: 44px;
+	    color: rgba(255,255,255,.85);
+	    margin-top: 200px;
+	    	}
+.pg-title{
+	    padding-top: 44px;
+	        font-size: 45px;
+    font-weight: 400;
+    padding-bottom: 11px;
+    color: #000;
+}
+.pg-sub-title{
+	    text-align: center;
+	        font-size: 26px;
+    font-weight: 300;
+    color: #777;
+    padding-bottom: 50px;
+}
+.to-be-lifer{
+	    display: inline-block;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 100px;
+    font-size: 20px;
+    color: #f48686;
+    cursor: pointer;
+        background: #ff7d7c;
+            text-align: center;
+}
+.pg-cnt-btn{
+	display: block;
+	color: #fff;
+}
+.pg-next-page{
+	cursor: pointer;
+    width: 40px;
+    bottom: -255px;
+    left: 50%;
+    margin-left: -24px;
+    -webkit-animation: moveDown 1.6s linear infinite;
+    animation: moveDown 1.6s linear infinite;
+        z-index: 100;
+    position: absolute;
+}
+.cover_l{
+		  width: 100%;
+		  height:100%;
+}
+.swiper-pagination{
+	background-color: pink;
+}
+.two{
+		height: 708px;
+	width: 100%;
+}
+.pg-cont-wrap{
+    display: inline-block;
+    width: 50%;
+    max-width: 798px;
+    padding-right: 353px;
+    position: relative;
+    margin-left: -100px;
+}
+.pg-cont-wrap img{
+	width: 758px;
+	height: 509px;
+	margin-top: 100px;
+	margin-left: 150px;
+
+}
+.pg-line-before{
+	    width: 42px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 462px;
+    top: 145px;
+}
+.pg-title1{
+	    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    padding: 20px 0 40px;
+    	position: absolute;
+     text-align: center;
+     top: 150px;
+     right: 210px;
+}
+.pg-content{
+	   font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: #000;
+    position: absolute;
+    right: 260px;
+    top: 270px;
+}
+.three{
+	height: 708px;
+	width: 100%;
+	position: relative;
+}
+.pg-cont-wrap{
+	    display: inline-block;
+    width: 30%;
+    max-width: 582px;
+    padding-right: 500px;
+    padding-left: 50px;
+    position: relative;
+}
+.pg-mac-img{
+	width: 455px;
+	height: 558px;
+	margin-left: 250px;
+}
+.pg-line-before1{
+	width: 42px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 508px;
+    top: 145px;
+}
+.pg-title2{
+	    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    padding: 20px 0 40px;
+    	position: absolute;
+     text-align: center;
+     top: 150px;
+     right: 210px;
+}
+.pg-content1{
+	   font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: #000;
+    position: absolute;
+    right: 280px;
+    top: 270px;
+}
+.four{
+		width: 100%;
+	height: 707px;
+	    background-image: url(https://b-ssl.duitang.com/uploads/people/201608/18/20160818104618_KtRJn.png);
+    background-size: cover;
+    background-position: center;
+}
+.pg-title3{
+	    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 11px;
+    color: #000;
+    text-align: center;
+        line-height: 1.5;
+       padding-top: 200px;
+}
+
+.pg-title4{
+    font-size: 26px;
+    font-weight: 300;
+    color: #777;
+    padding-bottom: 50px;
+}
+.to-be-lifer1{
+	    display: inline-block;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 100px;
+    font-size: 20px;
+    color: #f48686;
+    cursor: pointer;
+        background: #ff7d7c;
+            text-align: center;
+}
+.pg-cnt-btn1{
+	display: block;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

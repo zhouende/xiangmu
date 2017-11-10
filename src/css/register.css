@@ -1,0 +1,183 @@
+*{
+	margin:0;
+	padding:0;
+}
+#content{
+	 width: 100%!important;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+.clearFix::after{
+  content: '';
+  display: block;
+  clear:both;
+}
+.pg-header{
+	background: #F6F6F6;
+    padding: 60px 0 25px;
+    position: relative;
+}
+.pg-head{
+	    margin: 0 auto;
+    position: relative;
+    width: 770px;
+}
+.pg-home{
+	    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-decoration: none;
+        font-size: 12px;
+    line-height: 1.5;
+}
+.pg-logbtns{
+	text-align: center;
+	    padding: 5px 0;
+	 margin-left: -15px;
+}
+.pg-logbtns .pg-reg{
+	    color: #f14382!important;
+	  text-decoration: none;
+	   display: inline-block;
+    font-size: 14px;
+    margin-top: 22px;
+        text-align: center;
+}
+.pg-log{
+	color: #666;
+	 text-decoration: none;
+	 font-size: 14px;
+}
+.pg-log:hover{
+ color: #f14382!important;
+}
+.pg-probar{
+	position: relative;
+}
+.pg-p{
+	    color: #fff;
+    background: #F46;
+        font-size: 18px;
+    font-weight: 700;
+        width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    line-height: 40px;
+	margin-bottom: 10px;
+    display: block;
+        text-align: center;
+      user-select: none;
+}
+.pg-p1{
+	color: #888;
+	text-align: center;
+	font-size: 14px;
+	margin-left: -27px;
+}
+.pg-bar{
+	    left: 48px;
+    width: 300px;
+        height: 4px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 20px;
+}
+
+.pg-node{
+        float: left;
+    margin-right: 270px;
+    font-size: 14px;
+}
+.pg-bar2{
+	    height: 4px;
+    background: #D9D9D9;
+    position: absolute;
+    top: 20px;
+        left: 400px;
+    width: 278px;
+}
+.pg-node-pg-last{
+	float: left;
+    font-size: 14px;
+}
+.pg-content{
+	    /*padding-top: 102px;*/
+	    font-size: 12px;
+}
+.pg-wrap{
+	    margin: 0 auto;
+    width: 770px;
+}
+.pg-wrap h2 {
+    font-size: 14px;
+    color: #444;
+    padding-bottom: 10px;
+    text-align: center;
+        font-weight: 400;
+}
+.pg-wrap span{
+	    text-align: center;
+	    font-size: 13px;
+	        display: block;
+	        color: #888;
+	} 
+	.pg-box{
+		    width: 390px;
+    margin: 0 auto;
+    padding: 50px 5px;
+	}
+	.pg-reg{
+		    margin-top: 22px;
+		    list-style: none;
+	}
+	.pg-regbox{
+			    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 3px 10px 15px;
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+    width: 160px;
+    width: 180px\9;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+    text-indent: 33px;
+    font-size: 14px;
+        text-decoration: none;
+	}
+	.pg-reg i {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    }
+    .pg-reg li{
+    	    margin-bottom: 10px;
+
+    }
+.pg-weibo{
+     background-image: url(https://b-ssl.duitang.com/uploads/people/201501/15/20150115153954_UWNXn.png);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+.pg-reg .pg-qq {
+    background-position: -36px -4px;
+}
+.pg-reg .pg-db {
+        background-position: -67px -4px;
+}
+.pg-qq{
+   background-image: url(https://b-ssl.duitang.com/uploads/people/201501/15/20150115153954_UWNXn.png);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+.pg-db{
+   background-image: url(https://b-ssl.duitang.com/uploads/people/201501/15/20150115153954_UWNXn.png);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}

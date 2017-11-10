@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Document</title><link rel="stylesheet" href="css/YinYangShi.css"></head><body><div id="head" class="clearFix"><div class="logo"><a href="" class="logologo">堆糖</a></div><div id="dt-nav"><div class="dt-nav-btn">分类 ∨</div></div><div id="dt-search"><form><input type="text" name="" placeholder="搜索感兴趣的内容"> <button class="search"><img src="images/搜索 (1).png"></button></form></div><div class="dt-has-menu"><div class="dt-vline"></div><a href="livingHome.html" class="dt-dreamer-a">堆糖生活家</a> <span class="dt-dreamer">new</span><div class="dt-register"><a href="">注册</a></div><a href="" class="dt-login">登录</a></div><div class="dt-ologin-icons"><span class="phone-icon"></span> <a href="" class="for-phone">手机版 ∨</a></div><div class="phoneQRcode"><a href=""><img src="images/二维码.png"><p>扫扫下载手机客户端</p></a></div></div><div class="header_dt2"><div class="header_dt2L clearFix"><div class="divText1"><p><a href="">首页</a></p><p><a href="">热门</a></p></div><div class="divText2"><p><a href="">良品购</a></p></div></div><div class="header_dt2R"><div class="dt2R_t"><div class="dt2R_t1"><a href="">家居生活</a><span></span><a href="">美食菜谱</a><span></span><a href="">手工DIY</a></div><div class="dt2R_t1"><a href="">时尚搭配</a><span></span><a href="">美妆造型</a><span></span><a href="">婚纱婚礼</a></div><div class="dt2R_t1"><a href="">设计</a><span></span><a href="">古风</a><span></span><a href="">插画绘画</a></div><div class="dt2R_t1"><a href="">壁纸</a><span></span><a href="">头像</a><span></span><a href="">文字句子</a></div><div class="dt2R_t1"><a href="">旅行</a><span></span><a href="">摄影</a><span></span><a href="">人文艺术</a></div><div class="dt2R_t1"><a href="">影音书</a><span></span><a href="">人物明星</a><span></span><a href="">动画漫画</a></div><div class="dt2R_t1" style="border-bottom:none"><a href="">植物多肉</a><span></span><a href="">生活百科</a><span></span><a href="">搞笑萌宠</a></div></div></div></div><div class="content clearFix"><div class="pgsearch"><ul class="sh-sw"><li class="cur"><a href="###">内容</a></li><li class="pr"><a href="###">商品</a><i>新</i></li><li><a href="###">专辑</a></li><li><a href="###">糖人</a></li></ul></div><div class="sh-sw-ct"><input type="text" name="" autocomplete="off" value="阴阳师" class="ipt"> <a href="" class="btn"><button type="submit"><u>找一找</u></button></a></div><div class="search-recom"><span>热门搜索：</span> <a href="###">新加坡购物</a> <a href="###">Q版头像定制</a> <a href="###">月饼</a> <a href="###">简笔画</a> <a href="###">折纸</a> <a href="###">初秋装扮</a> <a href="###">中秋节</a> <a href="###">观影手帐</a> <a href="###">手机摄影</a> <a href="###">枫叶色眼影</a> <a href="###">美甲</a></div></div><div class=""></div><script src="js/jquery-3.2.1.min.js"></script><script type="text/javascript">//分类
+
+
+ 	$(function(){
+$('.header_dt2').hide();
+	$('.dt-nav-btn').mouseenter(function() {
+		$('.header_dt1').css('height','50px')
+		$('.header_dt2').show();
+	});
+	$('.dt-nav-btn').mouseleave(function() {
+		$('.header_dt1').css('height','')
+		$('.header_dt2').hide();
+		});
+	});
+
+
+
+// 扫码下载堆糖客户端
+	     $(function(){
+  $('.phoneQRcode').hide();
+  
+  $('.phone-icon').mouseenter(function() {
+    $('.phoneQRcode').show();
+  });
+  $('.phone-icon').mouseleave(function() {
+    $('.phoneQRcode').hide();
+  });
+});</script></body></html>

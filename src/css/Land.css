@@ -1,0 +1,212 @@
+*{
+	margin:0;
+	padding:0;
+}
+#content{
+	 width: 100%!important;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+.clearFix::after{
+  content: '';
+  display: block;
+  clear:both;
+}
+.pg-header{
+	background: #F6F6F6;
+    padding: 60px 0 25px;
+    position: relative;
+}
+.pg-head{
+	    margin: 0 auto;
+    position: relative;
+    width: 770px;
+}
+.pg-home{
+	    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-decoration: none;
+        font-size: 12px;
+    line-height: 1.5;
+}
+.pg-logbtns{
+	text-align: center;
+	    padding: 5px 0;
+        margin-top: -25px;
+	 margin-left: -20px;
+}
+.pg-logbtns .pg-reg{
+	    color: #666;
+	  text-decoration: none;
+	   display: inline-block;
+    font-size: 14px;
+    margin-top: 22px;
+        text-align: center;
+}
+.pg-log{
+	color: #f14382;
+	 text-decoration: none;
+	 font-size: 14px;
+}
+.pg-reg:hover{
+ color: #f14382!important;
+}
+.pg-wrapbox{
+        width: 960px;
+    margin: 0 auto;
+}
+.pg-box {
+    margin: 0 auto;
+    padding: 50px 5px;
+    margin-top: 50px;
+}
+.l{
+    float: left;
+        display: inline;
+}
+.pg-form{
+    padding-left: 100px;
+    width: 361px;
+}
+.pg-infobox{
+        padding-right: 90px;
+        list-style: none;
+}
+.inp1,.inp2 {
+    height: 38px;
+    width: 270px;
+        border: 1px solid #D4D4D4;
+    outline: 0;
+    padding-left: 10px!important;
+    font-size: 14px!important;
+    border-radius: 2px;
+}
+.reg-tips{
+        height: 30px;
+    display: block;
+    color: red;
+    line-height: 30px;
+        font-size: 12px;
+}
+.pg-vali{
+        width: 70px;
+        height: 38px;
+         border: 1px solid #D4D4D4;
+          border-radius: 2px;
+            outline: 0;
+}
+.pg-yzm{
+        cursor: pointer;
+    width: 165px;
+    vertical-align: middle;
+    height: 39px;
+}
+.clr{
+    line-height: 25px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.pg-chb{ 
+   width: auto;
+height: auto;
+    margin: 7px 4px 0 0;
+}
+.ll{
+        margin: 0 16px 0 0;
+        color: #666;
+}
+.pg-fog{
+        color: #5678a0;
+        float: right!important;
+            font-size: 12px;
+            text-decoration: none;
+}
+.pg-submits{
+    margin-top: 7px;
+}
+.pg-lgbtn{
+        display: block;
+    width: 230px;
+    text-align: center;
+    background: #2FB5F3;
+    border: none;
+    color: #FFF;
+    padding: 5px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+        height: 30px;
+    overflow: hidden;
+}
+.pg-submits button{
+        height: 100%;
+    border: 0;
+    background: 0 none;
+    margin: 0;
+    padding: 0;
+}
+.pg-submits u{
+        display: inline-block;
+    padding: 0 16px;
+    height: 100%;
+    letter-spacing: 2px;
+    line-height: 31px;
+    font-family: '\5B8B\4F53';
+    color: #f7f7f7;
+        text-decoration: none!important;
+            font-size: 14px;
+}
+.pg-lgbtn:hover{
+    background-color: #5678a0;
+}
+.pg-reg-log{
+        margin-top: 22px;
+    padding-left: 100px;
+}
+.pg-reg-log i {
+    background-image: url(https://b-ssl.duitang.com/uploads/people/201501/15/20150115153954_UWNXn.png);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+.pg-reg-log a:first-child {
+    margin-left: 0;
+}
+.pg-reg-log a{
+    margin-left: 33px;
+}
+.pg-QQ{
+        background-position: -36px -4px;
+}
+.pg-Wb{
+        background-position: -4px -4px;
+}
+.pg-DB{
+    background-position: -67px -4px;
+}
+.pg-TB{
+        background-position: -100px -4px;
+}
+.pg-QWB{
+        background-position: -131px -4px;
+}
+.erweima{
+    margin-left: 200px;
+}
+.saoyisao{
+    display: block;
+       color: #666;
+       margin-top: 24px;
+       font-size: 14px;
+       text-align: center;
+       margin-right: 100px;
+}
+.liulan{
+         color: #666;
+       font-size: 14px;
+       text-align: center;
+       margin-right: 100px;
+}

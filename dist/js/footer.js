@@ -1,0 +1,1 @@
+$(function(){$(".footerWrap img").hover(function(){var t=$(this).attr("src").split(".").join("_h.");$(this).attr("src",t)},function(){var t=$(this).attr("src").split("."),r=t[0],i=r.slice(0,r.length-2);t[0]=i;var s=t.join(".");$(this).attr("src",s)})});
